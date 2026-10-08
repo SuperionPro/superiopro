@@ -5,3 +5,5 @@ motor
 pydantic
 python-dotenv
 bcrypt
+PyJWT
+python-multipart
