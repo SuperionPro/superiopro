@@ -3478,3 +3478,6 @@ app.add_middleware(CORSMiddleware, allow_credentials=True,
 @app.on_event("shutdown")
 async def shutdown_db_client():
     client.close()
+@app.get("/")
+def read_root():
+    return {"message": "Bem-vindo ao SuperionPro!"}
