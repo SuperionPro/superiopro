@@ -8,3 +8,5 @@ bcrypt
 PyJWT
 python-multipart
 requests
+qrcode
+pillow
